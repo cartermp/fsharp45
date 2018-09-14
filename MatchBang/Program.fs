@@ -19,5 +19,5 @@ let print str =
 
 [<EntryPoint>]
 let main argv =
-    printfn "Hello World from F#!"
+    print "12" |> Async.RunSynchronously
     0 // return an integer exit code
