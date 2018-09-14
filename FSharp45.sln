@@ -7,9 +7,11 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Byrefs", "Byrefs\Byrefs.fsp
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ByrefReturns", "ByrefReturns\ByrefReturns.fsproj", "{54910C1E-1E29-4102-A1A1-9B0C4010ED97}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ByrefStructs", "ByrefStructs\ByrefStructs.fsproj", "{D93EDF84-B1DC-472E-8646-4E55134CC3BA}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ByrefStructs", "ByrefStructs\ByrefStructs.fsproj", "{D93EDF84-B1DC-472E-8646-4E55134CC3BA}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MatchBang", "MatchBang\MatchBang.fsproj", "{6AFFFA93-D36D-4430-826E-DF6D9ABD901D}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "MatchBang", "MatchBang\MatchBang.fsproj", "{6AFFFA93-D36D-4430-826E-DF6D9ABD901D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Relaxations", "Relaxations\Relaxations.fsproj", "{F45A36E0-45D8-40FD-ACBC-4091BA04470C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6AFFFA93-D36D-4430-826E-DF6D9ABD901D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AFFFA93-D36D-4430-826E-DF6D9ABD901D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AFFFA93-D36D-4430-826E-DF6D9ABD901D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F45A36E0-45D8-40FD-ACBC-4091BA04470C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45A36E0-45D8-40FD-ACBC-4091BA04470C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45A36E0-45D8-40FD-ACBC-4091BA04470C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45A36E0-45D8-40FD-ACBC-4091BA04470C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
