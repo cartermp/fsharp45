@@ -20,5 +20,14 @@ type Sequenceinator5000() =
 
 [<EntryPoint>]
 let main argv =
-    printfn "Hello World from F#!"
+    let s = Sequenceinator5000()
+
+    printfn "%s" (s.ToString())
+
+    let target = 16
+    let result = &s.FindLargestSmallerThan(16)
+    result <- result * 2
+
+    printfn "%s" (s.ToString())
+
     0 // return an integer exit code
