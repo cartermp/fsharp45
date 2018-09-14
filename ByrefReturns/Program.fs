@@ -7,7 +7,7 @@ type Sequenceinator5000() =
 
     override __.ToString() = String.Join(' ', nums)
 
-    member __.FindLargestSmaller(target: int) =
+    member __.FindLargestSmallerThan(target: int) =
         let mutable ctr = nums.Length - 1
 
         while ctr > 0 && nums.[ctr] >= target do
