@@ -18,7 +18,7 @@ let print str =
 
 [<EntryPoint>]
 let main argv =
-    [print "12"; print "13"; print "beth"]
+    [print "12"; print "13"; print "phillip"]
     |> Async.Parallel
     |> Async.RunSynchronously
     |> ignore

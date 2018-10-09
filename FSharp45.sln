@@ -11,7 +11,9 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ByrefStructs", "ByrefStruct
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "MatchBang", "MatchBang\MatchBang.fsproj", "{6AFFFA93-D36D-4430-826E-DF6D9ABD901D}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Relaxations", "Relaxations\Relaxations.fsproj", "{F45A36E0-45D8-40FD-ACBC-4091BA04470C}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Relaxations", "Relaxations\Relaxations.fsproj", "{F45A36E0-45D8-40FD-ACBC-4091BA04470C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Benchmark", "Benchmark\Benchmark.fsproj", "{74D7630A-791A-4F28-8251-A10116CD4F24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F45A36E0-45D8-40FD-ACBC-4091BA04470C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F45A36E0-45D8-40FD-ACBC-4091BA04470C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F45A36E0-45D8-40FD-ACBC-4091BA04470C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D7630A-791A-4F28-8251-A10116CD4F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D7630A-791A-4F28-8251-A10116CD4F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D7630A-791A-4F28-8251-A10116CD4F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D7630A-791A-4F28-8251-A10116CD4F24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

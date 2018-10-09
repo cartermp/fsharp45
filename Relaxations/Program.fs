@@ -5,16 +5,16 @@ open System
 // Collections and subsumption relaxations
 let x0: obj list = [ "a" ]
 let x1: obj list = [ "a"; "b" ]
-let x2: obj list = [ yield "a" ]
+let x2: obj list = [ yield "a" :> obj ]
 
 // Indentation relaxation
 let f() =
     System.Console.WriteLine(format="{0}", arg=[| 
-        "hello"
-    |])
+            "hello"
+        |])
     System.Console.WriteLine([|
-        "hello"
-    |])
+            "hello"
+        |])
 
 [<EntryPoint>]
 let main argv =
